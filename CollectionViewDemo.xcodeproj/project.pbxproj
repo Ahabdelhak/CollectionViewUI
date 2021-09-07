@@ -15,6 +15,7 @@
 		DCE3A78726DECA32007B9456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE3A78526DECA32007B9456 /* LaunchScreen.storyboard */; };
 		DCE3A79226DECA32007B9456 /* CollectionViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3A79126DECA32007B9456 /* CollectionViewDemoTests.swift */; };
 		DCE3A79D26DECA32007B9456 /* CollectionViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3A79C26DECA32007B9456 /* CollectionViewDemoUITests.swift */; };
+		DCFD308726E7895B0018E261 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD308626E7895B0018E261 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DCE3A79826DECA32007B9456 /* CollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE3A79C26DECA32007B9456 /* CollectionViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemoUITests.swift; sourceTree = "<group>"; };
 		DCE3A79E26DECA32007B9456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFD308626E7895B0018E261 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DCE3A78326DECA32007B9456 /* Assets.xcassets */,
 				DCE3A78526DECA32007B9456 /* LaunchScreen.storyboard */,
 				DCE3A78826DECA32007B9456 /* Info.plist */,
+				DCFD308626E7895B0018E261 /* MyCollectionViewCell.swift */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				DCE3A77F26DECA31007B9456 /* ViewController.swift in Sources */,
 				DCE3A77B26DECA31007B9456 /* AppDelegate.swift in Sources */,
+				DCFD308726E7895B0018E261 /* MyCollectionViewCell.swift in Sources */,
 				DCE3A77D26DECA31007B9456 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
